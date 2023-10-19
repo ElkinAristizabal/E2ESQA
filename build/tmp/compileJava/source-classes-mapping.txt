@@ -1,0 +1,16 @@
+co/sqasa/tasks/AbrirAplicacion.java
+ co.sqasa.tasks.AbrirAplicacion
+co/sqasa/userInternfaces/ListaDeArticulos.java
+ co.sqasa.userInternfaces.ListaDeArticulos
+co/sqasa/userInternfaces/ConfirmarCompra.java
+ co.sqasa.userInternfaces.ConfirmarCompra
+co/sqasa/tasks/SeleccionarArticulo.java
+ co.sqasa.tasks.SeleccionarArticulo
+co/sqasa/tasks/AgregarAlCarrito.java
+ co.sqasa.tasks.AgregarAlCarrito
+co/sqasa/tasks/SeleccionarCantidadAriticulo.java
+ co.sqasa.tasks.SeleccionarCantidadAriticulo
+co/sqasa/questions/ValidacionMensaje.java
+ co.sqasa.questions.ValidacionMensaje
+co/sqasa/userInternfaces/PaginaArticuloSeleccionado.java
+ co.sqasa.userInternfaces.PaginaArticuloSeleccionado
