@@ -49,3 +49,4 @@ tasks.withType(JavaCompile) {
 
 
 gradle.startParameter.continueOnFailure = true
+test.finalizedBy(aggregate)
