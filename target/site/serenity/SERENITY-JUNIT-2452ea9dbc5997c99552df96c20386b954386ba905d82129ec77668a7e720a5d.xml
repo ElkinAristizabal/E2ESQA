@@ -1,5 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Agregar articulos al carrito de compras" skipped="0" tests="1" time="84.34" timestamp="2023-10-19 05:16:53"><testcase name="Agregar dos cantidades de un articulo."><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
-co.sqasa.tasks.SeleccionarCantidadAriticulo.performAs(SeleccionarCantidadAriticulo.java:18)
-co.sqasa.StepDef.TestStepDefinition.agregue_dos_cantidades_al_carrito(TestStepDefinition.java:51)
-cucumber.runner.Runner.runPickle(Runner.java:80)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Agregar articulos al carrito de compras" skipped="0" tests="1" time="21.52" timestamp="2023-10-19 05:26:46"><testcase name="Agregar dos cantidades de un articulo."/></testsuite>
