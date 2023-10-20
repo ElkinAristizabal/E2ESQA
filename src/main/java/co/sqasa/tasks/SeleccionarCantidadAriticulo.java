@@ -9,13 +9,19 @@ import static co.sqasa.userInternfaces.PaginaArticuloSeleccionado.CANTIDAD_ARTIC
 
 public class SeleccionarCantidadAriticulo implements Task {
 
-    public static SeleccionarCantidadAriticulo ingresar() {
-        return Tasks.instrumented(SeleccionarCantidadAriticulo.class);
+    private final String value;
+
+    public SeleccionarCantidadAriticulo(String value) {
+        this.value = value;
+    }
+
+    public static SeleccionarCantidadAriticulo ingresar(String value) {
+        return Tasks.instrumented(SeleccionarCantidadAriticulo.class, value);
     }
 
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Enter.theValue("2").into(CANTIDAD_ARTICULO_INPUT));
+                Enter.theValue(value).into(CANTIDAD_ARTICULO_INPUT));
 }
 }

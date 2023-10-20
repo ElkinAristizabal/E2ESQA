@@ -10,5 +10,6 @@ Feature: Agregar articulos al carrito de compras
 
     Given el usuario navegue a san angel floristeria
     When seleccione un articulo
-    And agregue dos cantidades al carrito
+    And agregue "2" cantidades al carrito
     Then podra observar un mensaje de "Finalizar compra"
+    And validara que se hayan agregado "2" cantidades de articulo

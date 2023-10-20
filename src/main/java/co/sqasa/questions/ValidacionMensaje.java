@@ -6,7 +6,8 @@ import net.serenitybdd.screenplay.questions.Text;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class ValidacionMensaje  implements Question<String>{
-    private Target target;
+
+    private final Target target;
 
     public ValidacionMensaje(Target target) {
         this.target = target;
